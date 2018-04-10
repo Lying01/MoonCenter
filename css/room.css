@@ -1,0 +1,116 @@
+html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("../img/bg.jpg") no-repeat fixed;
+    background-size:cover;
+    font-size: 1em;
+    height: 100%;
+}
+
+#nav{
+    display:flex;
+    margin:auto;
+    line-height: 65px;
+    background: rgba(225,225,225,0.3);
+}
+
+#nav img{
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#nav a{
+    margin-left: 10px;
+    color: royalblue;
+    font-size: 1.2em;
+}
+
+#navTitle{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#navTitle p{
+    display: block;
+    color: #FFF;
+    font-size: .8em;
+    line-height: 30px;
+}
+
+#navTitle p:first-child{
+    line-height: 50px;
+    font-size: 1.3em;
+}
+
+#navBar{
+    margin-top: 20px;
+    text-align: center;
+    color: royalblue;
+    font-size: 1em;
+}
+
+#navBar a{
+    margin-left: 5px;
+    margin-right: 15px;
+    font-size: 1em;
+    color: royalblue;
+}
+
+#content{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    height: 100%;
+}
+
+.room{
+    display: inline-block;
+}
+
+.room img{
+    /*display: inline-block;*/
+    width: 330px;
+    height: 270px;
+}
+
+#navNum{
+    text-align: center;
+    font-size: .8em;
+}
+
+#navNum a{
+    margin-right: 10px;
+    color: royalblue;
+}
+
+#techSup {
+    color: #FFFFFF;
+    width: 100%;
+    bottom: 40px;
+    left: 0px;
+    font-family: "Microsoft YaHei";
+    letter-spacing: .05em;
+    font-size: .9em;
+    text-align: center;
+    padding: 15px 0 10px 0;
+    height: 40px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
