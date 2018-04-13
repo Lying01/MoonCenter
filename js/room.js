@@ -2,7 +2,7 @@
  * Created by Administrator on 2018/04/10.
  */
 var page = 1;  //定义是第几页
-var pageSize = 3; //定义一页几条数据
+var pageSize = 16; //定义一页几条数据
 var userId = '523C4656-83F7-4AEE-91AB-775F6CE94CE3'; //用户Id
 
 function getList(parameter) {
