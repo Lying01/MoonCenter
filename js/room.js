@@ -4,7 +4,6 @@
 var page = 1;  //定义是第几页
 var pageSize = 3; //定义一页几条数据
 var userId = '523C4656-83F7-4AEE-91AB-775F6CE94CE3'; //用户Id
-var allPage = 1;    //总页数
 
 function getList(parameter) {
     $.ajax({
@@ -75,7 +74,7 @@ function getList(parameter) {
 
 };
 
-function showPagination(allPage) {
+function showPagination() {
     $.ajax({
         type: "post",
         data: {
@@ -98,4 +97,4 @@ function showPagination(allPage) {
 
 var parameter = "'" + userId + "','" + pageSize + "','" + page + "'";
 getList(parameter);
-showPagination(allPage);
+showPagination();
