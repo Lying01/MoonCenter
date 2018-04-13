@@ -14,6 +14,7 @@ function getList(parameter) {
         },
         url: "http://120.78.174.170:86/WebService/BaseInfo.asmx/WebExecProcedure",   //后台url
         success: function (data) {
+            //todo 房间名未提供
             var roomInfo = eval(eval(data));//所有房间信息
             var str = "";
             var state = "";
@@ -58,7 +59,7 @@ function getList(parameter) {
                     + "<p>剩余天数:</p>"
                     + "</div>"
                     + "<div class=" + "detailContent" + " style='display:" + showInfo + "'>"
-                    + "<a>" + roomInfo.ds1[k].name + "</a>"
+                    + "<a href="+"'https://120.78.174.170:85/admin/entity/create?entityid="+ roomInfo.ds1[k].entityid +"&recordid="+ roomInfo.ds1[k].recordid +"'"+">" + roomInfo.ds1[k].name + "</a>"
                     + "<p>" + roomInfo.ds1[k].ruzhurs + "</p>"
                     + "<p>" + roomInfo.ds1[k].usezt + "</p>"
                     + "<p>" + roomInfo.ds1[k].shiyongts + "</p>"
@@ -68,7 +69,6 @@ function getList(parameter) {
 
             }
             $("#content").html(str);
-
         }
     })
 

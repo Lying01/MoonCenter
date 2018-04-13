@@ -29,7 +29,7 @@ body{
 #nav a{
     margin-left: 10px;
     color: royalblue;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 #navTitle{
@@ -40,13 +40,13 @@ body{
 #navTitle p{
     display: block;
     color: #FFF;
-    font-size: .8em;
+    font-size: 1em;
     line-height: 30px;
 }
 
 #navTitle p:first-child{
     line-height: 50px;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 #navBar{
@@ -82,11 +82,11 @@ body{
 
 .roomNum {
     position: absolute;
-    left: 135px;
+    left: 140px;
     top: 70px;
     z-index: 2;
     line-height: 50px;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 .detailTitle{
@@ -105,13 +105,13 @@ body{
 
 .detailTitle a,
 .detailContent a{
-    font-size: .7em;
+    font-size: 1em;
     color: #fff;
 }
 
 .detailTitle p,
 .detailContent p{
-    font-size: .7em;
+    font-size: 1em;
     color: #fff;
     margin: 5px;
 }
