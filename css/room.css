@@ -67,17 +67,61 @@ body{
     text-align: center;
     margin-top: 30px;
     padding: 20px;
-    height: 100%;
 }
 
 .room{
     display: inline-block;
+    position: relative;
 }
 
 .room img{
     /*display: inline-block;*/
     width: 330px;
     height: 270px;
+}
+
+.roomNum {
+    position: absolute;
+    left: 135px;
+    top: 70px;
+    z-index: 2;
+    line-height: 50px;
+    font-size: 1.2em;
+}
+
+.detailTitle{
+    position: absolute;
+    left: 90px;
+    top: 125px;
+    z-index: 2;
+}
+
+.detailContent{
+    position: absolute;
+    left: 170px;
+    top: 125px;
+    z-index: 2;
+}
+
+.detailTitle a,
+.detailContent a{
+    font-size: .7em;
+    color: #fff;
+}
+
+.detailTitle p,
+.detailContent p{
+    font-size: .7em;
+    color: #fff;
+    margin: 5px;
+}
+
+.isFree{
+    position: absolute;
+    left: 130px;
+    top: 150px;
+    z-index: 2;
+    color: #FFFFFF;
 }
 
 #navNum{
@@ -113,4 +157,13 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
     color: #fff;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+#footer a{
+    margin-right: 10px;
+    color: royalblue;
 }

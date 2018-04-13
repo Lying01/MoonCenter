@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>房间</title>
+    <link type="text/css" rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.1.1/css/bootstrap.min.css"/>
     <link href="../css/room.css" rel="stylesheet" type="text/css"/>
 </head>
 <body id="body">
@@ -16,35 +17,28 @@
         <p>Room usage</p>
     </div>
     <div id="navBar">
-        <a>首页</a>|
-        <a>客户管理</a>|
-        <a>资源管理</a>|
-        <a>库存查询</a>|
-        <a>合同单据</a>
+        <a href="http://120.78.174.170:85">首页</a>|
+        <a href="http://120.78.174.170:85">客户管理</a>|
+        <a href="http://120.78.174.170:85">资源管理</a>|
+        <a href="http://120.78.174.170:85">库存查询</a>|
+        <a href="http://120.78.174.170:85">合同单据</a>
     </div>
 </div>
-<div id="content">
-    <div class="room">
-        <img src="../img/using.png">
-    </div>
-    <div class="room">
-        <img src="../img/free.png">
-    </div>
-    <div class="room">
-        <img src="../img/Reservation.png">
-    </div>
-    <div class="room">
-        <img src="../img/Reservation.png">
-    </div>
-</div>
+<div id="content"></div>
 <footer id="footer">
-<div id="navNum">
-    <a>上一页</a>
-    <a>1</a>
-    <a>下一页</a>
-</div>
+    <div id="navNum">
+        <p id="p1"></p>
+        <ul class="pagination" id="pagination"></ul>
+    </div>
+
+
 <p id="techSup">由<a href="#？">蕊妍天时科技</a>提供技术支持</p>
 </footer>
+<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+<script src="../js/jqPaginator.js"></script>
 <script src="../js/room.js"></script>
+<script type="text/javascript">
+
+</script>
 </body>
 </html>
